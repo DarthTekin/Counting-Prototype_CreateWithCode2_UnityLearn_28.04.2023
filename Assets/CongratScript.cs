@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CongratScript : MonoBehaviour
 {
     public TextMesh Text;
@@ -26,7 +27,7 @@ public class CongratScript : MonoBehaviour
         TextToDisplay.Add("All Errors Fixed");
 
         Text.text = TextToDisplay[0];
-        
+
         SparksParticles.Play();
     }
 
@@ -45,8 +46,9 @@ public class CongratScript : MonoBehaviour
                 CurrentText = 0;
 
 
-                Text.text = TextToDisplay[CurrentText];
             }
+            Text.text = TextToDisplay[CurrentText];
+
         }
     }
 }
