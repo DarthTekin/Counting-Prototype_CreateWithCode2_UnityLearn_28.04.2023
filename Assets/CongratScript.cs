@@ -18,6 +18,7 @@ public class CongratScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SparksParticles = GameObject.Find("SparksEffect").GetComponent<ParticleSystem>();
         TimeToNextText = 0.0f;
         CurrentText = 0;
         
