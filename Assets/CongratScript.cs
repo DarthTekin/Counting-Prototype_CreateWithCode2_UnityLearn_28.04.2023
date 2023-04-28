@@ -24,7 +24,7 @@ public class CongratScript : MonoBehaviour
         
         RotatingSpeed = 1.0f;
 
-        TextToDisplay.Add("Congratulation");
+        TextToDisplay.Add("Congratulations");
         TextToDisplay.Add("All Errors Fixed");
 
         Text.text = TextToDisplay[0];
