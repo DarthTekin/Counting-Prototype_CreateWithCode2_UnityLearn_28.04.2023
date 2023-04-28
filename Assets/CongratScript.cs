@@ -6,7 +6,7 @@ using UnityEngine;
 public class CongratScript : MonoBehaviour
 {
     public TextMesh Text;
-    public ParticleSystem SparksParticles;
+    private ParticleSystem SparksParticles;
     
     private List<string> TextToDisplay = new List<string>();
     
