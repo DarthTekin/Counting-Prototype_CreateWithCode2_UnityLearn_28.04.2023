@@ -17,7 +17,7 @@ public class CongratScript : MonoBehaviour
     void Start()
     {
         TimeToNextText = 0.0f;
-        CurrentText = 0
+        CurrentText = 0;
         
         RotatingSpeed = 1.0;
 
@@ -44,7 +44,8 @@ public class CongratScript : MonoBehaviour
                 CurrentText = 0;
 
 
-            Text.text = TextToDisplay[CurrentText];
+                Text.text = TextToDisplay[CurrentText];
+            }
         }
     }
 }
